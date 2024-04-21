@@ -1,4 +1,4 @@
-# -MLQuestions
+# MLQuestions
 Top Machine Learning Interview Questions  
 
 ### **1.What Are the Different Types of Machine Learning?** 
