@@ -1,7 +1,7 @@
 # MLQuestions
 Top Machine Learning Interview Questions  
 
-### **1.What Are the Different Types of Machine Learning?** 
+### 1.What Are the Different Types of Machine Learning?
 
 There are three types of machine learning:  
 a)Supervised Learning: In supervised machine learning, a model makes predictions or decisions based on past or labeled data. Labeled data refers to sets of data that are given tags or labels,and thus made more meaningful.  
@@ -54,26 +54,87 @@ Fillna() will replace the wrong values with a placeholder value
 
 ### 5. How Can You Choose a Classifier Based on a Training Set Data Size?
 
+When the training set is small, a model that has a right bias and low variance seems to work better because they are less likely to overfit. 
+
+For example, Naive Bayes works best when the training set is large. Models with low bias and high variance tend to perform better as they work fine with complex relationships.
+
 ### 6. Explain the Confusion Matrix with Respect to Machine Learning Algorithms.
+
+A confusion matrix (or error matrix) is a specific table that is used to measure the performance of an algorithm. It is mostly used in supervised learning; in unsupervised learning, it’s called the matching matrix.
+
+The confusion matrix has two parameters:
+
+Actual
+Predicted 
+It also has identical sets of features in both of these dimensions.
 
 ### 7. What Is a False Positive and False Negative and How Are They Significant?
 
+False positives are those cases that wrongly get classified as True but are False. 
+
+False negatives are those cases that wrongly get classified as False but are True.
+
+In the term ‘False Positive,’ the word ‘Positive’ refers to the ‘Yes’ row of the predicted value in the confusion matrix. The complete term indicates that the system has predicted it as a positive, but the actual value is negative. 
+
 ### 8. What Are the Three Stages of Building a Model in Machine Learning?
 
+The three stages of building a machine learning model are:
+
+Model Building:  
+Choose a suitable algorithm for the model and train it according to the requirement 
+Model Testing:  
+Check the accuracy of the model through the test data 
+Applying the Model:  
+Make the required changes after testing and use the final model for real-time projects  
+Here, it’s important to remember that once in a while, the model needs to be checked to make sure it’s working correctly. It should be modified to make sure that it is up-to-date.
+
 ### 9. What is Deep Learning?
+
+The Deep learning is a subset of machine learning that involves systems that think and learn like humans using artificial neural networks. The term ‘deep’ comes from the fact that you can have several layers of neural networks. 
+
+One of the primary differences between machine learning and deep learning is that feature engineering is done manually in machine learning. In the case of deep learning, the model consisting of neural networks will automatically determine which features to use (and which not to use).
 
 ### 10. What Are the Differences Between Machine Learning and Deep Learning?
 
 ### 11. What Are the Applications of Supervised Machine Learning in Modern Businesses?
 
+Applications of supervised machine learning include:
+
+Email Spam Detection:  
+Here we train the model using historical data that consists of emails categorized as spam or not spam. This labeled information is fed as input to the model.
+Healthcare Diagnosis:  
+By providing images regarding a disease, a model can be trained to detect if a person is suffering from the disease or not.
+Sentiment Analysis:  
+This refers to the process of using algorithms to mine documents and determine whether they’re positive, neutral, or negative in sentiment. 
+Fraud Detection:  
+By training the model to identify suspicious patterns, we can detect instances of possible fraud.
+
 ### 12. What is Semi-supervised Machine Learning?
+
+Supervised learning uses data that is completely labeled, whereas unsupervised learning uses no training data.
+
+In the case of semi-supervised learning, the training data contains a small amount of labeled data and a large amount of unlabeled data.
 
 ### 13. What Are Unsupervised Machine Learning Techniques?
 
+There are two techniques used in unsupervised learning: clustering and association.
+
+Clustering:  
+Clustering problems involve data to be divided into subsets. These subsets, also called clusters, contain data that are similar to each other. Different clusters reveal different details about the objects, unlike classification or regression.
+Association:  
+In an association problem, we identify patterns of associations between different variables or items.
+
+For example, an e-commerce website can suggest other items for you to buy, based on the prior purchases that you have made, spending habits, items in your wishlist, other customers’ purchase habits, and so on.
+
 ### 14. What is the Difference Between Supervised and Unsupervised Machine Learning?
+
+Supervised learning - This model learns from the labeled data and makes a future prediction as output   
+Unsupervised learning - This model uses unlabeled input data and allows the algorithm to act on that information without guidance.
 
 ### 15. What is the Difference Between Inductive Machine Learning and Deductive Machine Learning? 
 
+
+  
 ### 16. Compare K-means and KNN Algorithms.
 
 ### 17. What Is ‘naive’ in the Naive Bayes Classifier?
@@ -192,7 +253,29 @@ There is an advantage of simplicity and speed
 
 ### 30. Briefly Explain Logistic Regression.
 
+Logistic regression is a classification algorithm used to predict a binary outcome for a given set of independent variables. 
+
+The output of logistic regression is either a 0 or 1 with a threshold value of generally 0.5. Any value above 0.5 is considered as 1, and any point below 0.5 is considered as 0.
+
 ### 31. Explain the K Nearest Neighbor Algorithm. 
+
+K nearest neighbor algorithm is a classification algorithm that works in a way that a new data point is assigned to a neighboring group to which it is most similar. 
+
+In K nearest neighbors, K can be an integer greater than 1. So, for every new data point, we want to classify, we compute to which neighboring group it is closest. 
+
+Let us classify an object using the following example. Consider there are three clusters:
+
+Football
+Basketball 
+Tennis ball
+
+Let the new data point to be classified is a black ball. We use KNN to classify it. Assume K = 5 (initially). 
+
+Next, we find the K (five) nearest data points, as shown.
+
+Observe that all five selected points do not belong to the same cluster. There are three tennis balls and one each of basketball and football. 
+
+When multiple classes are involved, we prefer the majority. Here the majority is with the tennis ball, so the new data point is assigned to this cluster.
 
 ### 32. What is a Recommendation System?
 
@@ -223,9 +306,27 @@ The F1 score is one when both Precision and Recall scores are one.
 
 ### 37. What do you understand by Type I vs Type II error?
 
+Type I Error: Type I error occurs when the null hypothesis is true and we reject it.
+
+Type II Error: Type II error occurs when the null hypothesis is false and we accept it.
+
 ### 38. Explain Correlation and Covariance?
 
+Correlation: Correlation tells us how strongly two random variables are related to each other. It takes values between -1 to +1. 
+
+Formula to calculate Correlation:
+
+
+
+Covariance: Covariance tells us the direction of the linear relationship between two random variables. It can take any value between - ∞ and + ∞.
+
+Formula to calculate Covariance:
+
+
+
 ### 39. What are Support Vectors in SVM?
+
+Support Vectors are data points that are nearest to the hyperplane. It influences the position and orientation of the hyperplane. Removing the support vectors will alter the position of the hyperplane. The support vectors help us build our support vector machine model.
 
 ### 40. What is Ensemble learning?
 
@@ -240,10 +341,20 @@ K-Fold Cross Validation is the most popular resampling technique that divides th
 
 ### 43. How does the Support Vector Machine algorithm handle self-learning? 
 
+The SVM algorithm has a learning rate and expansion rate which takes care of self-learning. The learning rate compensates or penalizes the hyperplanes for making all the incorrect moves while the expansion rate handles finding the maximum separation area between different classes.
+
 ### 44. What are the assumptions you need to take before starting with linear regression?
+
+There are primarily 5 assumptions for a Linear Regression model:  
+
+Multivariate normality  
+No auto-correlation  
+Homoscedasticity  
+Linear relationship  
+No or little multicollinearity  
 
 ### 45. What is the difference between Lasso and Ridge regression?
 
-
+Lasso(also known as L1) and Ridge(also known as L2) regression are two popular regularization techniques that are used to avoid overfitting of data. These methods are used to penalize the coefficients to find the optimum solution and reduce complexity. The Lasso regression works by penalizing the sum of the absolute values of the coefficients. In Ridge or L2 regression, the penalty function is determined by the sum of the squares of the coefficients.
 
 
