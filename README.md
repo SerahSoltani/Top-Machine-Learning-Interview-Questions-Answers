@@ -63,8 +63,8 @@ A confusion matrix (or error matrix) is a specific table that is used to measure
 
 The confusion matrix has two parameters:
 
-Actual
-Predicted 
+Actual  
+Predicted   
 It also has identical sets of features in both of these dimensions.
 
 ### 7. What Is a False Positive and False Negative and How Are They Significant?
