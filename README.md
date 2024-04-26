@@ -109,11 +109,14 @@ One of the primary differences between machine learning and deep learning is tha
 Applications of supervised machine learning include:
 
 Email Spam Detection:  
-Here we train the model using historical data that consists of emails categorized as spam or not spam. This labeled information is fed as input to the model.  
+Here we train the model using historical data that consists of emails categorized as spam or not spam. This labeled information is fed as input to the model.
+
 Healthcare Diagnosis:  
-By providing images regarding a disease, a model can be trained to detect if a person is suffering from the disease or not.  
+By providing images regarding a disease, a model can be trained to detect if a person is suffering from the disease or not. 
+
 Sentiment Analysis:  
-This refers to the process of using algorithms to mine documents and determine whether they’re positive, neutral, or negative in sentiment.   
+This refers to the process of using algorithms to mine documents and determine whether they’re positive, neutral, or negative in sentiment. 
+
 Fraud Detection:  
 By training the model to identify suspicious patterns, we can detect instances of possible fraud.
 
@@ -128,7 +131,8 @@ In the case of semi-supervised learning, the training data contains a small amou
 There are two techniques used in unsupervised learning: clustering and association.
 
 Clustering:  
-Clustering problems involve data to be divided into subsets. These subsets, also called clusters, contain data that are similar to each other. Different clusters reveal different details about the objects, unlike classification or regression.  
+Clustering problems involve data to be divided into subsets. These subsets, also called clusters, contain data that are similar to each other. Different clusters reveal different details about the objects, unlike classification or regression. 
+
 Association:  
 In an association problem, we identify patterns of associations between different variables or items.
 
