@@ -82,7 +82,7 @@ The three stages of building a machine learning model are:
 Model Building:  
 Choose a suitable algorithm for the model and train it according to the requirement 
 Model Testing:  
-Check the accuracy of the model through the test data 
+Check the accuracy of the model through the test data     
 Applying the Model:  
 Make the required changes after testing and use the final model for real-time projects  
 Here, it’s important to remember that once in a while, the model needs to be checked to make sure it’s working correctly. It should be modified to make sure that it is up-to-date.
