@@ -95,6 +95,15 @@ One of the primary differences between machine learning and deep learning is tha
 
 ### 10. What Are the Differences Between Machine Learning and Deep Learning?
 
+| Machine Learning  | Deep Learning |
+| ------------- | ------------- |
+| Enables machines to take decisions on their own, based on past data  | Enables machines to take decisions with the help of artificial neural networks  |
+| It needs only a small amount of data for training  | It needs a large amount of training data  |
+| Works well on the low-end system, so you don't need large machines  | Needs high-end machines because it requires a lot of computing power  |
+| Most features need to be identified in advance and manually coded  | The machine learns the features from the data it is provided  |
+|The problem is divided into two parts and solved individually and then combined  | The problem is solved in an end-to-end manner  |
+
+
 ### 11. What Are the Applications of Supervised Machine Learning in Modern Businesses?
 
 Applications of supervised machine learning include:
@@ -132,9 +141,19 @@ Unsupervised learning - This model uses unlabeled input data and allows the algo
 
 ### 15. What is the Difference Between Inductive Machine Learning and Deductive Machine Learning? 
 
+| Inductive Learning  | Deductive Learning |
+| ------------- | ------------- |
+| It observes instances based on defined principles to draw a conclusion  | It concludes experiences  |
+| Example: Explaining to a child to keep away from the fire by showing a video where fire causes damage  | Example: Allow the child to play with fire. If he or she gets burned, they will learn that it is dangerous and will refrain from making the same mistake again  |
 
   
 ### 16. Compare K-means and KNN Algorithms.
+
+| K-means  | KNN |
+| ------------- | ------------- |
+| K-Means is unsupervised  | KNN is supervised in nature  |
+| K-Means is a clustering algorithm  | KNN is a classification algorithm  |
+| The points in each cluster are similar to each other, and each cluster is different from its neighboring clusters  | It classifies an unlabeled observation based on its K (can be any number) surrounding neighbors  |
 
 ### 17. What Is ‘naive’ in the Naive Bayes Classifier?
 The classifier is called ‘naive’ because it makes assumptions that may or may not turn out to be correct. 
