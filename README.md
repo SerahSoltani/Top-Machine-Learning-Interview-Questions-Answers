@@ -1,4 +1,6 @@
-# MLQuestions
+# MLQuestions  
+If it's helpful for you, please **star** this repository and **follow me**.
+
 
 ### 1.What Are the Different Types of Machine Learning?
 
