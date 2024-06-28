@@ -246,12 +246,12 @@ High bias and low variance algorithms train models that are consistent, but inac
 High variance and low bias algorithms train models that are accurate but inconsistent. 
 
 ### 27. Define Precision and Recall.
-Precision
+**Precision**  
 Precision is the ratio of several events you can correctly recall to the total number of events you recall (mix of correct and wrong recalls).
 
 Precision = (True Positive) / (True Positive + False Positive)
 
-Recall
+**Recall**  
 A recall is the ratio of the number of events you can recall the number of total events.
 
 Recall = (True Positive) / (True Positive + False Negative)
@@ -265,13 +265,13 @@ A decision tree builds classification (or regression) models as a tree structure
 Pruning is a technique in machine learning that reduces the size of decision trees. It reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of overfitting. 
 
 Pruning can occur in:  
-Top-down fashion. It will traverse nodes and trim subtrees starting at the root  
-Bottom-up fashion. It will begin at the leaf nodes  
+  - Top-down fashion. It will traverse nodes and trim subtrees starting at the root  
+  - Bottom-up fashion. It will begin at the leaf nodes  
 
 There is a popular pruning algorithm called reduced error pruning, in which:  
-Starting at the leaves, each node is replaced with its most popular class  
-If the prediction accuracy is not affected, the change is kept  
-There is an advantage of simplicity and speed
+  - Starting at the leaves, each node is replaced with its most popular class  
+  - If the prediction accuracy is not affected, the change is kept  
+  - There is an advantage of simplicity and speed
 
 ### 30. Briefly Explain Logistic Regression.
 
@@ -285,19 +285,6 @@ K nearest neighbor algorithm is a classification algorithm that works in a way t
 
 In K nearest neighbors, K can be an integer greater than 1. So, for every new data point, we want to classify, we compute to which neighboring group it is closest. 
 
-Let us classify an object using the following example. Consider there are three clusters:
-
-Football
-Basketball 
-Tennis ball
-
-Let the new data point to be classified is a black ball. We use KNN to classify it. Assume K = 5 (initially). 
-
-Next, we find the K (five) nearest data points, as shown.
-
-Observe that all five selected points do not belong to the same cluster. There are three tennis balls and one each of basketball and football. 
-
-When multiple classes are involved, we prefer the majority. Here the majority is with the tennis ball, so the new data point is assigned to this cluster.
 
 ### 32. What is a Recommendation System?
 
@@ -328,27 +315,20 @@ The F1 score is one when both Precision and Recall scores are one.
 
 ### 37. What do you understand by Type I vs Type II error?
 
-Type I Error: Type I error occurs when the null hypothesis is true and we reject it.
+**Type I Error**: Type I error occurs when the null hypothesis is true and we reject it.
 
-Type II Error: Type II error occurs when the null hypothesis is false and we accept it.
+**Type II Error**: Type II error occurs when the null hypothesis is false and we accept it.
 
 ### 38. Explain Correlation and Covariance?
 
 Correlation: Correlation tells us how strongly two random variables are related to each other. It takes values between -1 to +1. 
 
-Formula to calculate Correlation:
-
-
-
 Covariance: Covariance tells us the direction of the linear relationship between two random variables. It can take any value between - ∞ and + ∞.
-
-Formula to calculate Covariance:
-
-
 
 ### 39. What are Support Vectors in SVM?
 
 Support Vectors are data points that are nearest to the hyperplane. It influences the position and orientation of the hyperplane. Removing the support vectors will alter the position of the hyperplane. The support vectors help us build our support vector machine model.
+![alt text]([https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/gradient%20descent%20vs%20batch%20gradient%20descent.png](https://github.com/SerahSoltani/Top-Machine-Learning-Interview-Questions-Answers/blob/main/Q39.png))
 
 ### 40. What is Ensemble learning?
 
