@@ -382,3 +382,22 @@ No or little multicollinearity
 Lasso(also known as L1) and Ridge(also known as L2) regression are two popular regularization techniques that are used to avoid overfitting of data. These methods are used to penalize the coefficients to find the optimum solution and reduce complexity. The Lasso regression works by penalizing the sum of the absolute values of the coefficients. In Ridge or L2 regression, the penalty function is determined by the sum of the squares of the coefficients.
 
 
+
+
+
+# Cheatsheets are More Useful When You're Preparing Interviews,Here Are Few Cheatsheets Which Will Help You To Ace Data Science Interview ⬇️
+
+
+| Sr. No | Name of Cheatsheet                                                         | Link                                                                  |
+| ----- | ------------------------------------------------------------ | --------------------------------------------------------------------- |
+|1| Basic Cheat Sheet For SQL|https://learnsql.com/blog/sql-basics-cheat-sheet|
+|2| SQL Cheat Sheet – Technical Concepts for the Job Interview |https://www.stratascratch.com/blog/sql-cheat-sheet-technical-concepts-for-the-job-interview|
+|3| Python Cheat Sheet |https://websitesetup.org/python-cheat-sheet/|
+|4| Comprehensive Python Cheatsheet |https://github.com/gto76/python-cheatsheet|
+|5| Data Wrangling With pandas Cheat Sheet |https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf|
+|6|Data Visualization Cheat Sheet |https://www.kaggle.com/getting-started/160583|
+|7|Statistics Cheat Sheet|https://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf|
+|8|Your Ultimate Data Science Statistics & Mathematics Cheat Sheet|https://towardsdatascience.com/your-ultimate-data-science-statistics-mathematics-cheat-sheet-d688a48ad3db|
+
+
+
