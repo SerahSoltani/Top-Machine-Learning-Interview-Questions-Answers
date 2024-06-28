@@ -327,8 +327,9 @@ Covariance: Covariance tells us the direction of the linear relationship between
 
 ### 39. What are Support Vectors in SVM?
 
-Support Vectors are data points that are nearest to the hyperplane. It influences the position and orientation of the hyperplane. Removing the support vectors will alter the position of the hyperplane. The support vectors help us build our support vector machine model.
-![alt text]([https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/gradient%20descent%20vs%20batch%20gradient%20descent.png](https://github.com/SerahSoltani/Top-Machine-Learning-Interview-Questions-Answers/blob/main/Q39.png))
+Support Vectors are data points that are nearest to the hyperplane. It influences the position and orientation of the hyperplane. Removing the support vectors will alter the position of the hyperplane. The support vectors help us build our support vector machine model.  
+
+![alt text](https://github.com/SerahSoltani/Top-Machine-Learning-Interview-Questions-Answers/blob/main/Q39.png))
 
 ### 40. What is Ensemble learning?
 
