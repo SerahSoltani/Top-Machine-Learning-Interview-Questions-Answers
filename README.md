@@ -142,7 +142,7 @@ For example, an e-commerce website can suggest other items for you to buy, based
 
 ### 14. What is the Difference Between Supervised and Unsupervised Machine Learning?
 
-Supervised learning - This model learns from the labeled data and makes a future prediction as output   
+Supervised learning - This model learns from the labeled data and makes a future prediction as output.
 Unsupervised learning - This model uses unlabeled input data and allows the algorithm to act on that information without guidance.
 
 ### 15. What is the Difference Between Inductive Machine Learning and Deductive Machine Learning? 
@@ -181,14 +181,12 @@ While there is no fixed rule to choose an algorithm for a classification problem
 If accuracy is a concern, test different algorithms and cross-validate them
 If the training dataset is small, use models that have low variance and high bias
 If the training dataset is large, use models that have high variance and little bias
-20. How is Amazon Able to Recommend Other Things to Buy? How Does the Recommendation Engine Work?
+
+### 20. How is Amazon Able to Recommend Other Things to Buy? How Does the Recommendation Engine Work?
 Once a user buys something from Amazon, Amazon stores that purchase data for future reference and finds products that are most likely also to be bought, it is possible because of the Association algorithm, which can identify patterns in a given dataset. 
 
-Association Algorithm
 
-Your AI/ML Career is Just Around The Corner!
-AI Engineer Master's ProgramEXPLORE PROGRAMYour AI/ML Career is Just Around The Corner!
-21. When Will You Use Classification over Regression?
+### 21. When Will You Use Classification over Regression?
 Classification is used when your target is categorical, while regression is used when your target variable is continuous. Both classification and regression belong to the category of supervised machine learning algorithms. 
 
 Examples of classification problems include:
@@ -201,7 +199,8 @@ Examples of regression problems include:
 
 Estimating sales and price of a product
 Predicting the score of a team
-Predicting the amount of rainfall
+Predicting the amount of rainfall 
+
 ### 22. How Do You Design an Email Spam Filter?
 Building a spam filter involves the following process:
 
@@ -362,6 +361,10 @@ Cross-Validation in Machine Learning is a statistical resampling technique that 
 K-Fold Cross Validation is the most popular resampling technique that divides the whole dataset into K sets of equal sizes.
 
 ### 42. What are the different methods to split a tree in a decision tree algorithm?
+
+Variance: Splitting the nodes of a decision tree using the variance is done when the target variable is continuous.  
+Information Gain: Splitting the nodes of a decision tree using Information Gain is preferred when the target variable is categorical.  
+Gini Impurity: Splitting the nodes of a decision tree using Gini Impurity is followed when the target variable is categorical.
 
 ### 43. How does the Support Vector Machine algorithm handle self-learning? 
 
