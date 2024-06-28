@@ -204,13 +204,13 @@ Predicting the amount of rainfall
 ### 22. How Do You Design an Email Spam Filter?
 Building a spam filter involves the following process:
 
-The email spam filter will be fed with thousands of emails 
-Each of these emails already has a label: ‘spam’ or ‘not spam.’
-The supervised machine learning algorithm will then determine which type of emails are being marked as spam based on spam words like the lottery, free offer, no money, full refund, etc.
-The next time an email is about to hit your inbox, the spam filter will use statistical analysis and algorithms like Decision Trees and SVM to determine how likely the email is spam
-If the likelihood is high, it will label it as spam, and the email won’t hit your inbox
-Based on the accuracy of each model, we will use the algorithm with the highest accuracy after testing all the models
-Email
+  - The email spam filter will be fed with thousands of emails 
+  - Each of these emails already has a label: ‘spam’ or ‘not spam.’
+  - The supervised machine learning algorithm will then determine which type of emails are being marked as spam based on spam words like the lottery, free offer, no money, full refund, etc.
+  - The next time an email is about to hit your inbox, the spam filter will use statistical analysis and algorithms like Decision Trees and SVM to determine how likely the email is spam
+  - If the likelihood is high, it will label it as spam, and the email won’t hit your inbox
+  - Based on the accuracy of each model, we will use the algorithm with the highest accuracy after testing all the models
+
 
 ### 23. What is a Random Forest?
 A ‘random forest’ is a supervised machine learning algorithm that is generally used for classification problems. It operates by constructing multiple decision trees during the training phase. The random forest chooses the decision of the majority of the trees as the final decision. 
