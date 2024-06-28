@@ -329,7 +329,7 @@ Covariance: Covariance tells us the direction of the linear relationship between
 
 Support Vectors are data points that are nearest to the hyperplane. It influences the position and orientation of the hyperplane. Removing the support vectors will alter the position of the hyperplane. The support vectors help us build our support vector machine model.  
 
-![alt text](https://github.com/SerahSoltani/Top-Machine-Learning-Interview-Questions-Answers/blob/main/Q39.png))
+![alt text](https://github.com/SerahSoltani/Top-Machine-Learning-Interview-Questions-Answers/blob/main/Q39.png)
 
 ### 40. What is Ensemble learning?
 
