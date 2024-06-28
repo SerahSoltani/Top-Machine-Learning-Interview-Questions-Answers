@@ -215,24 +215,23 @@ Building a spam filter involves the following process:
 ### 23. What is a Random Forest?
 A ‘random forest’ is a supervised machine learning algorithm that is generally used for classification problems. It operates by constructing multiple decision trees during the training phase. The random forest chooses the decision of the majority of the trees as the final decision. 
 
-Random Forest
 
 ### 24. Considering a Long List of Machine Learning Algorithms, given a Data Set, How Do You Decide Which One to Use?
 There is no master algorithm for all situations. Choosing an algorithm depends on the following questions:
 
-How much data do you have, and is it continuous or categorical?
-Is the problem related to classification, association, clustering, or regression?
-Predefined variables (labeled), unlabeled, or mix?
-What is the goal?
+  - How much data do you have, and is it continuous or categorical?
+  - Is the problem related to classification, association, clustering, or regression?
+  - Predefined variables (labeled), unlabeled, or mix?
+  - What is the goal?
 
 ### 25. What is Bias and Variance in a Machine Learning Model?
 
-Bias
+**Bias**  
 Bias in a machine learning model occurs when the predicted values are further from the actual values. Low bias indicates a model where the prediction values are very close to the actual ones.
 
 Underfitting: High bias can cause an algorithm to miss the relevant relations between features and target outputs. 
 
-Variance
+**Variance**  
 Variance refers to the amount the target model will change when trained with different training data. For a good model, the variance should be minimized. 
 
 Overfitting: High variance can cause an algorithm to model the random noise in the training data rather than the intended outputs.
