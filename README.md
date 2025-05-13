@@ -1,5 +1,5 @@
 # MLQuestions  
-If it's helpful for you, please **star** this repository and **follow me**.
+🙏 If this list helped you prepare, consider giving this repository a ⭐ and follow me for more! 
 
 
 ### 1.What Are the Different Types of Machine Learning?
@@ -262,7 +262,7 @@ A decision tree builds classification (or regression) models as a tree structure
 
 ### 29. What is Pruning in Decision Trees, and How Is It Done?
 
-Pruning is a technique in machine learning that reduces the size of decision trees. It reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of overfitting. 
+Pruning is a technique in machine learning that🙏 If this list helped you prepare, consider giving this repository a ⭐ and follow me for more! 🙏 If this list helped you prepare, consider giving this repository a ⭐ and follow me for more!  reduces the size of decision trees. It reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of overfitting. 
 
 Pruning can occur in:  
   - Top-down fashion. It will traverse nodes and trim subtrees starting at the root  
@@ -383,5 +383,5 @@ Lasso(also known as L1) and Ridge(also known as L2) regression are two popular r
 
 ---
 
-🙏 If this list helped you prepare, consider giving this repository a ⭐ and follow me for more practical resources on deep learning, machine learning, and AI!  
+🙏 If this list helped you prepare, consider giving this repository a ⭐ and follow me for more!  
 Feel free to fork it, share it, and tag me if you build something amazing with it 💡🚀
