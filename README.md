@@ -381,4 +381,7 @@ Lasso(also known as L1) and Ridge(also known as L2) regression are two popular r
 |8|Your Ultimate Data Science Statistics & Mathematics Cheat Sheet|https://towardsdatascience.com/your-ultimate-data-science-statistics-mathematics-cheat-sheet-d688a48ad3db|
 
 
+---
 
+🙏 If this list helped you prepare, consider giving this repository a ⭐ and follow me for more practical resources on deep learning, machine learning, and AI!  
+Feel free to fork it, share it, and tag me if you build something amazing with it 💡🚀
